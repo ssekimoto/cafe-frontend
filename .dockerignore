@@ -1,0 +1,8 @@
+# Ignore all build artifacts
+dist
+# Ignore node modules
+node_modules
+# Ignore test related files
+.nyc_output
+coverage
+tests

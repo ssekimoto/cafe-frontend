@@ -34,3 +34,24 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore all build artifacts
+.next
+dist
+
+# Ignore node modules
+node_modules
+
+# Ignore test related files
+.nyc_output
+coverage
+tests
+
+# Ignore the following directories and files:
+*.md
+*.d.ts
+*.ts
+*.js
+*.json
+*.mdx
+.DS_Store
